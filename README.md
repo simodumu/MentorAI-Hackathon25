@@ -18,11 +18,15 @@ This solution creates an Azure AI Foundry project and Azure AI services. More de
 
 Instructions are provided for deployment through GitHub Codespaces, VS Code Dev Containers, and your local development environment.
 
+</div>
+
 ### Solution Architecture
 
 ![Architecture diagram showing that user input is provided to the Azure Container App, which contains the app code. With user identity and resource access through managed identity, the input is used to form a response. The input and the Azure monitor are able to use the Azure resources deployed in the solution: Application Insights, Azure AI Foundry Project, Azure AI Services, Storage account, Azure Container App, and Log Analytics Workspace.](docs/images/architecture.png)
 
 The app code runs in Azure Container App to process the user input and generate a response to the user. It leverages Azure AI projects and Azure AI services, including the model and agent.
+
+</div>
 
 ### Key Features
 
@@ -35,29 +39,13 @@ MentorAI offers a rich set of features designed to make learning and onboarding 
 - **Knowledge Democratization:** Makes expert insights accessible to everyone, reducing dependency on tribal knowledge and enabling faster ramp-up times for new employees.
 - **Conversational Interface:** Intuitive chat experience for seamless interaction
 
-<br/>
+</div>
 
 Here is a screenshot showing the chatting web application with requests and responses between the system and the user:
 
 ![Screenshot of chatting web application showing requests and responses between agent and the user.](docs/images/webapp_screenshot.jpg)
 
-## Getting Started
-
-| [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/get-started-with-ai-agents) | [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Azure-Samples/get-started-with-ai-agents) |
-|---|---|
-
-1. Click `Open in GitHub Codespaces` or `Dev Containers` button above
-2. Wait for the environment to load
-3. Run the following commands in the terminal:
-   ```bash
-   azd up
-   ```
-4. Follow the prompts to select your Azure subscription and region
-5. Wait for deployment to complete (5-20 minutes) - you'll get a web app URL when finished
-
-For detailed deployment options and troubleshooting, see the [full deployment guide](./docs/deployment.md).
-**After deployment, try these [sample questions](./docs/sample_questions.md) to test your agent.**
-
+</div>
 
 ## Resource Clean-up
 
@@ -79,6 +67,8 @@ To prevent incurring unnecessary charges, it's important to clean up your Azure 
 
 ⚠️ Alternatively, you can delete the resource group directly from the Azure Portal to clean up resources.
 
+</div>
+
 ### Resources
 
 This template creates everything you need to get started with Azure AI Foundry:
@@ -93,6 +83,7 @@ This template creates everything you need to get started with Azure AI Foundry:
 | [AI Search Service](https://learn.microsoft.com/azure/search/) | *Optional* - Enables hybrid search capabilities combining semantic and vector search |
 | [Application Insights](https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview) | *Optional* - Provides application performance monitoring, logging, and telemetry for debugging and optimization |
 | [Log Analytics Workspace](https://learn.microsoft.com/azure/azure-monitor/logs/log-analytics-workspace-overview) | *Optional* - Collects and analyzes telemetry data for monitoring and troubleshooting |
+
 
 
 
