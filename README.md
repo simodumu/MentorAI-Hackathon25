@@ -104,9 +104,53 @@ This template creates everything you need to get started with Azure AI Foundry:
    - Can you help me set quarterly goals for my sr CSA role?
    - What are examples of successful career transitions from CSA to Principal roles?
 
+### Extending MentorAI’s Usability Across other Teams
+To scale MentorAI beyond SfMC, here’s how you can adapt it for example; ARR, Engineering, or Black Belt team:
 
+1. **Customize Role-Based Guidance**
+   - Define purpose and scope for each team (e.g., ARR onboarding, Engineering repo setup).
+   - Update welcome behavior to reflect team-specific language.
+     
+2. **Feed Team Knowledge Base**
+   - Ingest team-specific documentation, playbooks, and process guides.
+   - Use connectors to pull from SharePoint, OneDrive, or internal wikis.
+   - Example: “Let me check the ARR-Hub for the latest escalation steps.”
+     
+3. **Integrate with Internal Systems**
+   - Connect to Entra ID, internal ticketing systems, certification trackers.
+   - Enable access to team-specific dashboards or compliance portals.
+     
+4. **Train with Real Scenarios**
+   - Use transcripts, emails, and chat logs to train MentorAI on how each team communicates.
+   - Include examples of successful onboarding, escalations, and career growth paths.
+     
+5. **Enable Feedback Loop**
+   - Allow users to rate responses or flag gaps.
+   - Use feedback to continuously improve domain-specific knowledge.
 
-
+### Q&A
+1. **What is MentorAI?**
+   - MentorAI is a role-based AI assistant designed to guide Cloud Solution Architects (CSAs) in the Support for Mission Critical (SfMC) team. It helps with onboarding, skill development, certification planning, and navigating internal processes—just like a real-world mentor.
+2. **How is MentorAI different from Copilot Studio?**
+   - MentorAI is purpose-built for SfMC roles and behaves like a professional mentor. It provides end-to-end guidance using internal tools like SfMC-Hub and Entra ID. Copilot Studio, on the other hand, is a general-purpose bot builder that requires manual configuration and doesn’t come with built-in domain expertise.
+3. **What kind of questions can I ask MentorAI?**
+   - You can ask about:
+        - SfMC onboarding steps
+        - Recommended certifications (e.g., AI-102, SC-100)
+        - Internal processes like repo compliance or escalation
+        - Career growth paths like CHAPS level
+        -Learning resources and skill development plans
+            -Example: “How do I prepare for the AI-102 certification?”    
+3. **What if MentorAI doesn’t know the answer?**
+   - MentorAI responds with:
+       - “I don’t have those details right now, but I’ll keep learning.”
+       It’s designed to improve over time as more team knowledge is fed into it.
+4. **Can MentorAI be used by other teams like ARR or Engineering?**
+   -  Yes! MentorAI can be extended to other domains by:
+       -Updating its purpose and scope for the new team
+       -Feeding team-specific knowledge bases (e.g., ARR-Hub, Engineering playbooks)
+       -Training it with real scenarios and internal documents
+       -Customizing its welcome behavior and tone  
 
 
 
