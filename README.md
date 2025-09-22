@@ -84,6 +84,29 @@ This template creates everything you need to get started with Azure AI Foundry:
 | [Application Insights](https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview) | *Optional* - Provides application performance monitoring, logging, and telemetry for debugging and optimization |
 | [Log Analytics Workspace](https://learn.microsoft.com/azure/azure-monitor/logs/log-analytics-workspace-overview) | *Optional* - Collects and analyzes telemetry data for monitoring and troubleshooting |
 
+### Sample prompt to intract with MentorAI Agent
+- **Onboarding Support:**
+   - How can you assist me as new Cloud Solution Architects?
+   - Can you walk me through the SfMC onboarding checklist?
+- **Skill Development:**
+   - What are the top 3 skills that senior CSAs in SfMC typically master?
+   - Can you recommend learning paths for improving my AI/ML expertise in SfMC?
+- **Certification Guidance:**
+   - Which certifications are recommended for CSAs in SfMC?
+   - How do I prepare for the Azure AI Engineer Associate (AI-102) exam?
+- **Internal Process Navigation:**
+   - How do you guide users in navigating internal processes specific to the SfMC team?
+   - Can you guide me through the escalation process for customer issues?
+- **Resource Access:**
+   - where do I find necessary documentation or resources?
+   - Walk me through the process of using the SfMC-Hub for compliance documentation?
+- **Mentorship and Growth prompt:**
+   - Can you help me set quarterly goals for my sr CSA role?
+   - What are examples of successful career transitions from CSA to Principal roles?
+
+
+
+
 
 
 
