@@ -39,7 +39,7 @@ MentorAI offers a rich set of features designed to make learning and onboarding 
 
 Here is a screenshot showing the chatting web application with requests and responses between the system and the user:
 
-![Screenshot of chatting web application showing requests and responses between agent and the user.](docs/images/webapp_screenshot.png)
+![Screenshot of chatting web application showing requests and responses between agent and the user.](docs/images/webapp_screenshot.jpg)
 
 ## Getting Started
 
@@ -93,5 +93,6 @@ This template creates everything you need to get started with Azure AI Foundry:
 | [AI Search Service](https://learn.microsoft.com/azure/search/) | *Optional* - Enables hybrid search capabilities combining semantic and vector search |
 | [Application Insights](https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview) | *Optional* - Provides application performance monitoring, logging, and telemetry for debugging and optimization |
 | [Log Analytics Workspace](https://learn.microsoft.com/azure/azure-monitor/logs/log-analytics-workspace-overview) | *Optional* - Collects and analyzes telemetry data for monitoring and troubleshooting |
+
 
 
