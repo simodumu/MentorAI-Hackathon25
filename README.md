@@ -132,8 +132,9 @@ To scale MentorAI beyond SfMC, here’s how you can adapt it for example; ARR, E
 1. **What is MentorAI?**
    - MentorAI is a role-based AI assistant designed to guide Cloud Solution Architects (CSAs) in the Support for Mission Critical (SfMC) team. It helps with onboarding, skill development, certification planning, and navigating internal processes—just like a real-world mentor.
 2. **How is MentorAI different from Copilot Studio?**
-   - MentorAI is purpose-built for SfMC roles and behaves like a professional mentor. It provides end-to-end guidance using internal tools like SfMC-Hub and Entra ID. Copilot Studio, on the other hand, is a general-purpose bot builder that requires manual configuration and doesn’t come with built-in domain expertise.
-3. **What kind of questions can I ask MentorAI?**
+   - MentorAI is purpose-built to support specific teams—such as SfMC, ARR, or GDB—and acts like a professional mentor from within that team. It delivers end-to-end guidance using a focused knowledge base tailored exclusively to that team’s workflows, tools, and best practices.
+   - Copilot Studio, on the other hand, is a general-purpose AI assistant designed to serve broader organizational needs. It draws from the entire company’s knowledge base, which can sometimes lead to information overload or less targeted guidance.
+3. **What kind of questions can I ask MentorAI?** 
    - You can ask about:
         - SfMC onboarding steps
         - Recommended certifications (e.g., AI-102, SC-100)
@@ -161,4 +162,5 @@ To scale MentorAI beyond SfMC, here’s how you can adapt it for example; ARR, E
    - It reduces friction in onboarding, centralizes learning guidance, automates routine tasks, and connects users to the right people and resources—all within the flow of work.
 9. **How does Mentor AI handle sensitive data?**
    - It uses Azure AI Content Safety and respects user permissions via Entra ID (Azure AD). It only retrieves content the user is authorized to access and filters out harmful or inappropriate responses.
+
 
