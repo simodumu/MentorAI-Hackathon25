@@ -71,12 +71,12 @@ To prevent incurring unnecessary charges, it's important to clean up your Azure 
 
 ### Resources
 
-This template creates everything you need to get started with Azure AI Foundry:
+Following azure resources are used
 
 | Resource | Description |
 |----------|-------------|
-| [Azure AI Project](https://learn.microsoft.com/azure/ai-studio/how-to/create-projects) | Provides a collaborative workspace for AI development with access to models, data, and compute resources |
-| [Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/) | Powers the AI agents for conversational AI and intelligent search capabilities. Default models deployed are gpt-4o-mini, but any Azure AI models can be specified per the [documentation](docs/deploy_customization.md#customizing-model-deployments) |
+| [Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry) | A unified platform for building intelligent agents that can reason, act, and collaborate. It manages orchestration, tool calls, content safety, and observability—ideal for production-grade AI mentors. |
+| [Azure AI Agent Service](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview#how-do-agents-in-ai-foundry-work) | Azure AI Foundry Agent Service provides a production-ready foundation for deploying intelligent agents in enterprise environments. Default models deployed are gpt-4o-mini, but any Azure AI models can be specified. |
 | [Azure Container Apps](https://learn.microsoft.com/azure/container-apps/) | Hosts and scales the web application with serverless containers |
 | [Azure Container Registry](https://learn.microsoft.com/azure/container-registry/) | Stores and manages container images for secure deployment |
 | [Storage Account](https://learn.microsoft.com/azure/storage/blobs/) | Provides blob storage for application data and file uploads |
@@ -151,6 +151,14 @@ To scale MentorAI beyond SfMC, here’s how you can adapt it for example; ARR, E
        -Feeding team-specific knowledge bases (e.g., ARR-Hub, Engineering playbooks)
        -Training it with real scenarios and internal documents
        -Customizing its welcome behavior and tone  
-
-
+5. **How does Mentor AI ensure its answers are accurate?**
+   - It uses Retrieval-Augmented Generation (RAG) with Azure Cognitive Search to pull relevant content from its knowledge base like; SharePoint, Wikis, and other sources.
+6. **What tools and systems does Mentor AI integrate with?**
+   - Microsoft Teams, Azure OpenAI, Semantic Kernel, Microsoft Graph, Viva Learning, Microsoft Learn, ServiceNow, Power Automate, and optionally Azure Monitor for KQL queries.
+7. **Can Mentor AI automate tasks?**
+   - Yes. It can initiate workflows like access requests, approvals, and ticket creation using Power Automate and ServiceNow integrations. Agent needs to be enhanced with these capabilities. 
+8. **How does Mentor AI improve the employee experience?**
+   - It reduces friction in onboarding, centralizes learning guidance, automates routine tasks, and connects users to the right people and resources—all within the flow of work.
+9. **How does Mentor AI handle sensitive data?**
+   - It uses Azure AI Content Safety and respects user permissions via Entra ID (Azure AD). It only retrieves content the user is authorized to access and filters out harmful or inappropriate responses.
 
